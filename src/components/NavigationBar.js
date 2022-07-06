@@ -1,8 +1,8 @@
 import React from 'react'
+import '../Styles/NavigationBar/NavigationBar.css'
 
-const NavigationBar = () => {
-    return (
-    <header className="App-header" style={{ height: "30px" }}>
+const NavigationBar = () => (
+    <header className="navbar" style={{ height: "30px" }}>
         
         <nav>
             <a href="">Home</a>
@@ -13,7 +13,7 @@ const NavigationBar = () => {
     </header>
     )
   
-};
+;
 
 
 
